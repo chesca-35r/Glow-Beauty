@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f8;
+    color: #60464b;
+}
+
+header {
+    background-color: #f4d6dc;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #a65370;
+    margin-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #60464b;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d16b91;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #fce8ec;
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: #a65370;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: #c87591;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 25px;
+    color: #a65370;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 3px 12px #e8cdd3;
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-8px);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin: 15px 0;
+    color: #b35d7c;
+}
+
+.product p {
+    margin: 8px 0;
+}
+
+#quiz {
+    background-color: #fce8ec;
+}
+
+select, button {
+    padding: 12px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #c87591;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a65370;
+}
+
+#result {
+    margin: 20px auto;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+#tips p {
+    margin: 15px;
+}
+
+footer {
+    background-color: #f4d6dc;
+    text-align: center;
+    padding: 20px;
+}
+
+.discover {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.discover-btn {
+    display: inline-block;
+    background-color: #c87591;
+    color: white;
+    padding: 14px 35px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.discover-btn:hover {
+    background-color: #a65370;
+    transform: scale(1.05);
+}
